@@ -1,5 +1,12 @@
 # A hemorrhage segmentation model for traumatic brain injury
-## Pre-requirements
+## Requirements
+The system requires the following:
+- Python : Python version 3
+- TensorFlow: The Deep Learning library for back end.
+- NiBabel: The library used for loading NIFTI files.
+- numpy : General purpose array-processing package.
+- scipy : Scientific packages. 
+- [DeepMedic](https://github.com/deepmedic/deepmedic) : A deep learning framework for medicial 3D scan segmentation. We developed the model using this framework.
 ## Usage
 ### Data preparing
 ### Runing the model
